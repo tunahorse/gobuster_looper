@@ -17,10 +17,10 @@ git clone https://github.com/thetrebelcc/gobuster_looper
 cd gobuster_looper
 sh gobuster_looper.sh
 type in txt.file
+then type in the path to the wordlist
 ```
 
-- gobuster then runs taking in URLs from the text file and saves the results to gobuster_results.txt
-- All status codes except for 200 are ignored, to change this modify the flash in the bash file
+- gobuster then runs taking in URLs from the text file and the worlist file. Results are saved to gobuster_results.txt
 
 
 
